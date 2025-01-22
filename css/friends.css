@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    overflow:hidden;
+}
+body {
+    width: 100%;
+    height: 100%;
+}
+header {
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+    align-items: center;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+.logo {
+    display: flex;
+}
+.logo > img {
+    width: 36px;
+    height: 63px;
+}
+.text_logo {
+    display: flex;
+    font-family: "Permanent Marker";
+    font-size: 40px;
+    margin-left: 20px;
+}
+header > a  {
+position: relative;
+right: 650px;
+}
+.container_messages {
+    margin-top: 12px;
+    width: 480px;
+    height: 800px;
+    background: #D9D9D9;
+    border-left: 3px solid black;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-left: 300px;
+
+}
+main {
+    display: flex;
+}
+.list {
+    margin-top: 12px;
+    width: 740px;
+    height: 800px;
+    background: #D9D9D9;
+    border: 3px solid black;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.menu {
+    display: flex;
+    height: 100px;
+    border-bottom: 3px solid black;
+}
+.messages {
+    margin: 10px 0 0 30px;
+}
+.friends {
+    margin: 10px 0 0 41px;
+}
+.friends > a, .messages > a {
+    font-family: "Inter";
+    font-size: 13px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
+.friends > a > p {
+    margin-left: 4px;
+}
+.friends > a:focus, .messages > a:focus {
+    opacity: .5;
+}
+.list_choice {
+    width: 480px;
+    height: 700px;
+}
+.friends_choice {
+    margin-top: 40px;
+}
+.friends_choice > button, .requests_choice > button, .friendship_choice > button {
+    display: flex;
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 480px;
+    height: 100px;
+    align-items: center;
+}
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.friends_choice > button > img, .requests_choice > button > img, .friendship_choice > button > img{
+    margin-left: 40px;
+}
+.friends_choice > button > p, .requests_choice > button > p, .friendship_choice > button > p {
+    font-family: "Inter";
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 15px;
+}
+.friends_choice > button:hover, .requests_choice > button:hover, .friendship_choice > button:hover {
+    background-color: #969595;
+    border-radius: 20px;
+}
+.friends_list, .requests_list, .friendship_list {
+    display: none;
+    width: 740px;
+    height: 140px;
+    border-top-right-radius: 20px;
+}
+.friends_list > .btn_1 > button > img, .requests_list > .btn_1 > button > img, .friendship_list > .btn_1 > button > img {
+    width: 90px;
+    height: 85px;
+    margin-left: 20px;
+    margin-top: 27px;
+}
+.friends_list > p, .requests_list > p, .friendship_list > p {
+    font-family: "Inter";
+    font-size: 36px;
+    font-weight: 700;
+    margin-left: 17px;
+    margin-top: 30px;
+}
+.friends_list:hover, .requests_list:hover, .friendship_list:hover {
+    width: 730px;
+    height: 130px;
+    background: #969595;
+    border-radius: 20px;
+    margin: 5px;
+}
+.friends_list > .btn_2 > button > img {
+    width: 40px;
+    height: 39px;
+}
+.friends_list > .btn_2 {
+    position: relative;
+    top: 80px;
+    left: 310px;
+}
+.requests_list > .btn_2 > button > img, .friendship_list > .btn_2 > button > img{
+    width: 40px;
+    height: 39px;
+}
+.requests_list > .btn_3 > button > img, .friendship_list > .btn_3 > button > img{
+    width: 40px;
+    height: 39px;
+}
+.btn_2 {
+    position: relative;
+    top: 80px;
+    left: 250px;
+}
+.btn_3 {
+    position: relative;
+    top: 80px;
+    left: 260px;
+}
+
+

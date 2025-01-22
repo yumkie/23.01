@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    overflow:hidden;
+}
+body {
+    width: 100%;
+    height: 100%;
+}
+header {
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+    align-items: center;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+.logo {
+    display: flex;
+}
+.logo > img {
+    width: 36px;
+    height: 63px;
+}
+.text_logo {
+    display: flex;
+    font-family: "Permanent Marker";
+    font-size: 40px;
+    margin-left: 20px;
+}
+header > img {
+position: relative;
+right: 650px;
+}
+.container_messages {
+    margin-top: 12px;
+    width: 480px;
+    height: 800px;
+    background: #D9D9D9;
+    border-left: 3px solid black;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-left: 300px;
+
+}
+main {
+    display: flex;
+}
+.profile {
+    margin-top: 12px;
+    width: 740px;
+    height: 800px;
+    background: #D9D9D9;
+    border: 3px solid black;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.menu {
+    display: flex;
+    height: 100px;
+    border-bottom: 3px solid black;
+}
+.messages {
+    margin: 10px 0 0 30px;
+}
+.friends {
+    margin: 10px 0 0 41px;
+}
+.friends > a, .messages > a {
+    font-family: "Inter";
+    font-size: 13px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
+.friends > a > p {
+    margin-left: 4px;
+}
+.friends > a:focus, .messages > a:focus {
+    opacity: .5;
+}
+.info {
+    margin-top: 92px;
+    margin-left: 41px;
+}
+.h1 {
+    display: flex;
+
+}
+.info > .h1 > img {
+    margin-left: 4px;
+}
+.info > p {
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+.info > .h1 > p {
+    font-family: "Inter";
+    font-size: 30px;
+    font-weight: 700;
+}
+.info >  form > button {
+    margin-top: 71px;
+    background: none;
+    border: none;
+    cursor:pointer;
+}
+.profile > img{
+    width: 200px;
+    height: 188px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.profile {
+    display: flex;
+}
+.profile_name {
+    margin-top: 44px;
+    margin-left: 25px;
+}
+.profile_name > input:first-child {
+    font-family: "Inter";
+    font-weight: 900;
+    font-size: 50px;
+    width: 400px;
+    background: none;
+    border: none;
+    border-radius: 20px;
+}
+.profile_name > p:nth-child(2) {
+    font-family: "Inter";
+    font-weight: 600px;
+    font-size: 32px;
+    margin-top: 5px;
+}
+.profile_name > input[name=status] {
+    width: 358px;
+    height: 150px;
+    font-family: "Inter";
+    font-weight: 400px;
+    font-size: 24px;
+    margin-top: 10px;
+    background: none;
+    border: none;
+    word-break: break-all;
+}
